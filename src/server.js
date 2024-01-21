@@ -2,8 +2,12 @@ const express = require("express")
 
 const app = express()
 
-app.get("/message/:id", (request, response) => {
-    response.send("HELLO WORD!")
+app.get("/message/:id/:user", (request, response) => {
+   const { id, user} = request.params;
+
+   response.send(` 
+   Mensagem ID: ${request.params.id},
+   Para o usuário: ${request.params.user} `)
 })
 
 const PORT = 3333;
