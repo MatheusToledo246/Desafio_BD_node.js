@@ -1,0 +1,15 @@
+{
+  "name": "desafio--node",
+  "version": "1.0.0",
+  "description": "Api desenvolvida para o desafio do 8° modulo do programa Explorer da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matheus Toledo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
