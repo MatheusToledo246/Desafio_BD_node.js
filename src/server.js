@@ -1,6 +1,7 @@
 const express = require("express")
 
 const app = express()
+app.use(express.json());
 
 app.get("/message/:id/:user", (request, response) => {
    const { id, user} = request.params;
